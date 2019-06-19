@@ -3,6 +3,9 @@ Parâmetros:
 instanceId => DB identifier do banco de dados
 instanceType => nova class (tipo da instância) que a instância irá assumir
 
+exemplo da chamada da função lambda em json no cloudwatch:
+{ "instanceId": "mybase", "instanceType": "db.t2.medium" }
+
 inicio ---->
 
 var AWS = require('aws-sdk');
