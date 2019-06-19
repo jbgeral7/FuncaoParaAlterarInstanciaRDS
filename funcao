@@ -1,3 +1,4 @@
+Função em nodejs para alterar opções de banco de dados no rds da aws
 
 Parâmetros:
 instanceId => DB identifier do banco de dados
