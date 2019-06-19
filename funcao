@@ -1,3 +1,10 @@
+
+Parâmetros:
+instanceId => DB identifier do banco de dados
+instanceType => nova class (tipo da instância) que a instância irá assumir
+
+inicio ---->
+
 var AWS = require('aws-sdk');
 
 exports.handler = (event, context, callback) => {
@@ -14,3 +21,5 @@ exports.handler = (event, context, callback) => {
   });
   callback(null, 'Feito!');
 };
+
+fim ---->
